@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is test setup for apollo graphql server in express",
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
   "repository": "https://github.com/pacificsun/apollo-express-setup.git",
   "author": "Suraj Thapa <stsurajst@gmail.com>",
   "license": "MIT",
